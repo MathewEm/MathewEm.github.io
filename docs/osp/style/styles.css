@@ -24,7 +24,7 @@ font-family: Arial;
 .logo {
 width: 500px;
 height: 500px;
-background-image: url("./images/not_found_tp.png");
+background-image: url("./public/images/not_found_tp.png");
 background-size: cover;
 background-position: center;
 }
