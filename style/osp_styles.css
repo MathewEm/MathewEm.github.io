@@ -74,7 +74,7 @@ border-radius: 5px;
 	 text-transform: uppercase;
 	 width: auto;
 	 height: auto;
-	 padding: 4px 16px;
+	 padding: 0.25rem 1rem;
 	 min-height: 2.572em
  }
 
@@ -95,7 +95,7 @@ border-radius: 5px;
 	 top: 0;
 	 bottom: 0;
 	 border-radius: inherit;
-	 box-shadow: 0 1px 5px #0003,0 2px 2px #00000024,0 3px 1px -2px #0000001f
+	 box-shadow: 0 0.0625rem 0.3125rem #0003,0 0.125rem 0.125rem #00000024,0 0.1875rem 0.0625rem -0.125rem #0000001f
  }
 
  .q-btn__content {
@@ -111,7 +111,7 @@ border-radius: 5px;
  }
 
  .q-btn--actionable.q-btn--standard:active:before,.q-btn--actionable.q-btn--standard.q-btn--active:before {
-	 box-shadow: 0 3px 5px -1px #0003,0 5px 8px #00000024,0 1px 14px #0000001f
+	 box-shadow: 0 0.1875rem 0.3125rem -0.0625rem #0003,0 0.3125rem 0.5rem #00000024,0 0.0625rem 0.875rem #0000001f
  }
 
  .q-btn--no-uppercase {
