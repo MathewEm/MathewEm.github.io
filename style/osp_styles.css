@@ -67,7 +67,7 @@ border-radius: 5px;
 	 outline: 0;
 	 border: 0;
 	 vertical-align: middle;
-	 font-size: 14px;
+	 font-size: 0.875rem;
 	 line-height: 1.715em;
 	 text-decoration: none;
 	 background: transparent;
@@ -119,7 +119,7 @@ border-radius: 5px;
  }
 
  .q-btn--rectangle {
-	 border-radius: 3px
+	 border-radius: 0.1875rem
  }
 
  .q-btn--outline {
@@ -127,15 +127,15 @@ border-radius: 5px;
  }
 
  .q-btn--outline:before {
-	 border: 1px solid currentColor
+	 border: 0.0625rem solid currentColor
  }
 
  .q-btn--push {
-	 border-radius: 7px
+	 border-radius: 0.4375rem
  }
 
  .q-btn--push:before {
-	 border-bottom: 3px solid rgba(0,0,0,.15)
+	 border-bottom: 0.1875rem solid rgba(0,0,0,.15)
  }
 
  .q-btn--push.q-btn--actionable {
@@ -147,7 +147,7 @@ border-radius: 5px;
  }
 
  .q-btn--push.q-btn--actionable:active,.q-btn--push.q-btn--actionable.q-btn--active {
-	 transform: translateY(2px)
+	 transform: translateY(0.125rem)
  }
 
  .q-btn--push.q-btn--actionable:active:before,.q-btn--push.q-btn--actionable.q-btn--active:before {
@@ -155,7 +155,7 @@ border-radius: 5px;
  }
 
  .q-btn--rounded {
-	 border-radius: 28px
+	 border-radius: 1.75rem
  }
 
  .q-focus-helper,.q-focusable,.q-manual-focusable,.q-hoverable {
