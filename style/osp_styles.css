@@ -162,9 +162,6 @@ border-radius: 5px;
 	 outline: 0
  }
 
- .col,.col-xs {
-	 flex: 10000 1 0%
- }		
 
  .row,.column,.flex {
 	 display: flex;
@@ -185,4 +182,15 @@ border-radius: 5px;
 
  .text-center {
 	 text-align: center
+ }
+
+ /* Mobile Phones */
+ [class*="col-"]{
+     width: 100%;
+ }
+
+ @media only screen and (min-width: 768px) {
+     .col,.col-xs {
+	 flex: 10000 1 0%
+     }
  }
