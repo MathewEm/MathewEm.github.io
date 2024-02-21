@@ -191,8 +191,8 @@ border-radius: 0.3125rem;
 
  @media only screen and (min-width: 768px) {
      .logo {
-	 width: 30rem;
-	 height: 30rem;
+	 width: 100%;
+	 height: auto;
 	 background-image: url("../public/images/not_found_tp.png");
 	 background-size: cover;
 	 background-position: center;
