@@ -9,7 +9,7 @@ height: 100vh;
 margin: 0;
 font-family: Arial;
 	 font-weight: 500;
-	 min-width: 100px;
+	 min-width: 6.25rem;
 	 min-height: 100%;
 }
 
@@ -22,8 +22,8 @@ font-family: Arial;
  }
 
 .logo {
-width: 500px;
-height: 500px;
+width: 31.25rem;
+height: 31.25rem;
 background-image: url("../public/images/not_found_tp.png");
 background-size: cover;
 background-position: center;
@@ -39,16 +39,16 @@ background-position: center;
 
 .message {
 text-align: center;
-margin-top: 20px;
+margin-top: 1.25rem;
 }
 .home-button {
 display: inline-block;
-margin-top: 20px;
-padding: 10px 20px;
+margin-top: 1.25rem;
+padding: 0.625rem 1.25rem;
 color: #FFFFFF;
 background-color: #26a69a;
 text-decoration: none;
-border-radius: 5px;
+border-radius: 0.3125rem;
 }
 
  .non-selectable {
