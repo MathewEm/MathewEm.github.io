@@ -194,3 +194,13 @@ border-radius: 0.3125rem;
 	 flex: 10000 1 0%
      }
  }
+
+ @media only screen and (orientation: landscape) {
+     .logo {
+	 width: 15rem;
+	 height: 15rem;
+	 background-image: url("../public/images/not_found_tp.png");
+	 background-size: cover;
+	 background-position: center;
+     }
+ }
