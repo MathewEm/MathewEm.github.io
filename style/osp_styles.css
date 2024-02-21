@@ -190,8 +190,12 @@ border-radius: 0.3125rem;
  }
 
  @media only screen and (min-width: 768px) {
-     .col,.col-xs {
-	 flex: 10000 1 0%
+     .logo {
+	 width: 30rem;
+	 height: 30rem;
+	 background-image: url("../public/images/not_found_tp.png");
+	 background-size: cover;
+	 background-position: center;
      }
  }
 
